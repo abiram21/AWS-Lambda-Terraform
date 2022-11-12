@@ -16,8 +16,8 @@ terraform {
 // 1) Provide your own access and secret keys so terraform can connect
 //    and create AWS resources (e.g. our lambda function)
 provider "aws" {
-	access_key = "AKIA4D4DPLNC5ZVRZ4G5"
-	secret_key = "r1XG19cbEphxbR/ksjfdAHXkCeaFd45mQBemV6z2"
+	access_key = "get-access-key"
+	secret_key = "get-secret-key"
 	region="us-east-1"
 }
 
